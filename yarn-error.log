@@ -1,0 +1,40 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add cryptjs body-parser concurrently express gravatar jsonwebtoken mongoose passport passport-jwt prop-types validator
+
+PATH: 
+  C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Darrell\bin;C:\Program Files (x86)\Intel\iCLS Client;C:\Program Files\Intel\iCLS Client;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\Program Files\Intel\IntelSGXPSW\bin\x64\Release;C:\Program Files\Intel\IntelSGXPSW\bin\win32\Release;C:\Users\Darrell\AppData\Roaming\npm;C:\Program Files\dotnet;C:\Program Files\Microsoft SQL Server\130\Tools\Binn;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin;C:\Program Files\Common Files\Intel\WirelessCommon;C:\Program Files\nodejs;C:\xampp\php;C:\composer;C:\Program Files\Git\cmd;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Program Files (x86)\Yarn\bin;C:\Users\Darrell\AppData\Local\Microsoft\WindowsApps;C:\Users\Darrell\AppData\Roaming\npm\node_modules\@angular\cli;C:\Program Files\Git\usr\bin;C:\Program Files\Microsoft VS Code\Code.exe;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\3.6\bin\mongo.exe;C:\Program Files\JetBrains\PhpStorm 2017.3.1\bin;C:\Users\Darrell\AppData\Local\atom\bin;C:\Users\Darrell\AppData\Roaming\npm;C:\Users\Darrell\AppData\Roaming\Composer\vendor\bin;C:\Users\Darrell\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.9.4
+
+Platform: 
+  win32 x64
+
+npm manifest: 
+  {
+    "name": "dev-connector",
+    "version": "1.0.0",
+    "main": "server.js",
+    "author": "darrell-parkhouse5151 <lazycoder5151@gmail.com>",
+    "license": "MIT",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: Couldn't find package "cryptjs" on the "npm" registry.
+      at new MessageError (C:\Program Files (x86)\Yarn\lib\cli.js:186:110)
+      at NpmResolver.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:51625:15)
+      at Generator.next (<anonymous>)
+      at step (C:\Program Files (x86)\Yarn\lib\cli.js:98:30)
+      at C:\Program Files (x86)\Yarn\lib\cli.js:109:13
+      at <anonymous>
+      at process._tickCallback (internal/process/next_tick.js:188:7)
