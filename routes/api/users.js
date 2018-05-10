@@ -12,4 +12,10 @@ router.get('/test', (req, res) =>
 	})
 );
 
+//-----------------------------------------------
+// @route   GET api/users/all
+// @desc    Get all the users route
+// @access  Public
+//-----------------------------------------------
+router.get('/all', (req, res) => {});
 module.exports = router;
